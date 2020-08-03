@@ -1,0 +1,280 @@
+* {
+	font-family:  'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: hsl(0, 36%, 70%);
+}
+@media (min-width: 601px){
+html, body{
+	background: linear-gradient(135deg,hsl(0, 0%, 100%), hsl(0, 100%, 97%));
+	height: 100%;
+	min-height: 600px;
+}
+div.left-background{
+	background-image: url('../images/bg-pattern-desktop.svg');
+	background-repeat: no-repeat;
+	background-size: 57% 100%;
+	background-position: left;
+	background-attachment: scroll;
+	height: 100%;
+}
+div.hero-desktop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 0;
+	width: 43%;
+	height: 100%;
+	background-image: url('../images/hero-desktop.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: fixed;
+}
+#header-style {
+	margin-top: 3.5%;
+	margin-left: 11%;
+}
+h1 {
+	font-weight: bold;
+	color: hsl(0, 6%, 24%);
+	font-size: 50px;
+	letter-spacing: 1rem; 
+}
+ h1.title span{
+	font-weight: 300;
+	font-size: 1em;
+	text-align: center;
+}
+div.left-background{
+	/*height: 35em;*/
+	height: 100%;
+
+}
+div p {
+	width: 100%;
+	padding-top: 5px;
+}
+div.main-mobile {
+	width: 30%;
+	margin-left: 12%;
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+.title {
+	text-transform: uppercase;
+}
+
+.form-control {
+	border: 1px solid hsl(0, 36%, 70%);
+	opacity: 0.4;
+	position: absolute;
+	margin-top: 20px;	
+	float: left;
+	height: 50px;
+	width: 27%;
+	padding-left: 25px;
+	background: none;
+	border-radius: 25px 0px 0px 25px;
+
+}
+.form-control:focus {
+	border: 1px solid hsl(0, 36%, 70%);
+	box-shadow: 0px 0px 27px 1px hsl(0, 74%, 74%);
+}
+.inputBox input::placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+form button {
+	position: relative;
+	float: left;
+	width: 90px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 80%;
+	margin-bottom: 10px;
+	padding: 5px;
+	background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	color: white;	
+	border-radius: 25px;
+	box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.10);
+	border: none;
+	cursor: pointer;
+}
+button img {
+	margin-top: -4px;
+}
+span.result{
+	color: #f96464;
+	padding-left: 25px;
+}
+form.invalid {
+    background-image: url("../images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 75% 42%;
+ }
+
+footer p.attribution{
+
+}
+
+}
+
+@media (max-width: 600px){
+
+html, body{
+	background: linear-gradient(135deg,hsl(0, 0%, 100%), hsl(0, 100%, 97%));
+	/*height: 800px;*/
+}
+div#header-style{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+nav.navbar{
+	margin: 0;
+	height: 5.3em;
+}
+.navbar-brand{
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.navbar-brand img {
+	width: 105px;
+}
+div.left-background{
+	height: 800px;
+}
+div.hero-mobile {
+	background-image: url('../images/hero-mobile.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	height: 66.8vw;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1.title {
+	margin-top: 17.5%;
+	margin-bottom: 0;
+	font-weight: bold;
+	color: hsl(0, 6%, 24%);
+	font-size: 10vw;
+	text-align: center;
+	letter-spacing: 1rem; 
+}
+ h1.title span{
+	font-weight: 300;
+	font-size: 1em;
+	text-align: center;
+}
+
+div p {
+	width: 100%;
+	padding-top: 5px;
+}
+div.main-desktop {
+	margin-top: 0;
+	margin-bottom: 5%;
+}
+
+.title {
+	text-transform: uppercase;
+}
+div.paragraph{
+	margin-top: 20px;
+	margin-left: 9%;
+	margin-right: 9%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.paragraph p{
+	font-size: 0.9em;
+}
+.form-control {
+	border: 1px solid hsl(0, 36%, 70%);
+	opacity: 0.4;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 20px;
+	float: left;
+	height: 50px;
+	width: 70%;
+	padding-left: 25px;
+	background: none;
+	border-radius: 25px 0px 0px 25px;
+
+}
+.form-control:focus {
+	border: 1px solid hsl(0, 36%, 70%);
+	box-shadow: 0px 0px 27px 1px hsl(0, 74%, 74%);
+}
+.inputBox input::placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+form button {
+	position: relative;
+	float: left;
+	width: 65px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 70%;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-right: 10px;
+	background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	color: white;	
+	border-radius: 25px;
+	box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.10);
+	border: none;
+	cursor: pointer;
+}
+
+button img {
+	margin-top: -2px;
+	margin-left: 10px;
+}
+
+span.result{
+	color: #f96464;
+	padding-left: 55px;
+}
+form.invalid {
+    background-image: url("../images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 65% 32px;
+ }
+}
+
+button:hover{
+	background: hsl(0, 80%, 86%);
+}
+button:active, button:focus{
+	outline:none;
+}
+button:active{ 
+	box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.20);
+}
+input:invalid {
+    border: 2px solid red;
+ }
+footer p.attribution{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+  	text-align: center;
+  	color: hsl(0, 6%, 24%);
+  	background: hsl(0, 74%, 90%);
+  	font-size: 0.9em;
+  	margin-bottom: 0;
+  	width: 100%;
+}
+footer a{
+	color: hsl(0, 74%, 74%);
+}
